@@ -23,7 +23,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+Regex anchors areregex tokens that do not math any characters but asser something about the string or matching process.
 ### Quantifiers
 
 ### OR Operator
