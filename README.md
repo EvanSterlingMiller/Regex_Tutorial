@@ -23,7 +23,16 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-Regex anchors areregex tokens that do not math any characters but asser something about the string or matching process.
+Anchors signify the position in a string where a match must occur. When an anchor is used in a search expression the regular expression engine does not advance throught string or consume any of the characters The anchor looks for a match at that specific position. 
+Types of anchors:
+ ^   Match must occur at the begining of the string, or at the begining of the line
+ $   Match must occur at the end of the string or the end of a line
+ \A  Match must occur at the begining of the string only
+ \Z  Match must occur at the end of the string or before \n at the end of the string
+ \z  Match must occur at the end of the string only
+ \G  Match ust start at the position where the previous match ended, of there was no previous match, the position in the string where the matching started.
+ \b  Match must occur on a word boundary
+ \B Match must not occur on a word boundry
 ### Quantifiers
 
 ### OR Operator
